@@ -29,8 +29,8 @@ import { Link } from "react-router-dom";
          <div className="explorer">
            <p className="title-info">Destacados</p>
            <div className="link-footer">
-            <Link className="footerLink" to="/conoceme"><p>Proyectos</p></Link> 
-            <Link className="footerLink" to="/servicios"><p>Servicios</p></Link> 
+            <Link className="footerLink" to="/s"><p>Proyectos</p></Link> 
+            <Link className="footerLink" to="/s"><p>Servicios</p></Link> 
              
            </div>
          </div>
