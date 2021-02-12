@@ -1,5 +1,5 @@
 .content_navbar {
-	background: #0000009e;
+	background: #ffffff;
 	padding-top: 5px;
 	padding-bottom: 8px;
 	/* border-bottom: 1px solid #b68ada96; */
@@ -20,13 +20,13 @@
 
 .content-nav a {
 	text-decoration: none;
-	color: rgb(194, 194, 194);
+	color: #2f2f2f;
 	font-size: 16px;
 	font-weight: 300;
 	font-family: 'Quicksand', sans-serif;
 }
 .content-nav a:hover {
-	color: #aaaaaa;
+	color: #050505;
 }
 .content-nav ul li {
 	list-style: none;
@@ -60,8 +60,9 @@
 
 .content-nav a.current {
 	padding-bottom: 4px;
-	border-bottom: 2px solid white;
-	color: white;
+
+	color: rgb(175, 0, 0);
+	font-weight: 700;
 }
 
 @media (max-width: 700px) {

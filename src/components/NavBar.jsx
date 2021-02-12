@@ -29,12 +29,12 @@ const NavBar = () => {
             
             <ul style={styleMenu}>
                 <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/" exact>Inico</NavLink></li>
-                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/s" exact>Nosotros</NavLink></li>
-                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/s" exact>Servicios</NavLink></li>
-                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/s" exact>Proyectos<br/>sociales</NavLink></li>
-                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/s" exact>Empresas<br/>privadas</NavLink></li>
-                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/s" exact>Entidades<br/>Estatales</NavLink></li>
-                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/s" exact>Contátenos</NavLink></li>
+                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/nosotros" exact>Nosotros</NavLink></li>
+                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/aas" exact>Servicios</NavLink></li>
+                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/sdfs" exact>Proyectos<br/>sociales</NavLink></li>
+                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/sdfsss" exact>Empresas<br/>privadas</NavLink></li>
+                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/sdfas" exact>Entidades<br/>Estatales</NavLink></li>
+                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/ss" exact>Contátenos</NavLink></li>
                 <li onClick={toggleMenu}>
                     <img src={Close} alt="" width="30" className="menu" />
                 </li>

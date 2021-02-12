@@ -13,9 +13,14 @@ import { Link } from "react-router-dom";
          <div className="info">
            <p className="title-info">Contáctame</p>
            <div className="">
-            <p>Teléfono: +51 993 861 447</p>
-            <p>Email: vemtas@peruarq.com</p>
-            <p>Direción: Lima - Perú</p>
+            <div className="">
+            <p className="a-link"><i class="fas fa-phone-alt"></i> +51 993 861 447  |  +51 947 418 025</p>
+            <p className="a-link"><i class="fas fa-phone-alt"></i> +34 639 44 29 21</p>
+            </div>
+            <div className="">
+            <p className="a-link"><i class="far fa-envelope"></i> gerencia@peruarq.com</p>
+            <p className="a-link"><i class="far fa-envelope"></i> comercial@peruarq.com</p>
+            </div>
            </div>
          </div>
          <div className="redes">
@@ -23,21 +28,24 @@ import { Link } from "react-router-dom";
             <div className="icon-redes">
               <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i className="fab fa-facebook-square"></i></a>
               <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
+              <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i class="fab fa-whatsapp"></i></a>
 
             </div>
          </div>
          <div className="explorer">
-           <p className="title-info">Destacados</p>
+           <p className="title-info">Dirección</p>
            <div className="link-footer">
-            <Link className="footerLink" to="/s"><p>Proyectos</p></Link> 
-            <Link className="footerLink" to="/s"><p>Servicios</p></Link> 
+            <Link className="footerLink" to="/s"><p className="a-link"><i class="fas fa-map-marker-alt"></i> Av. Centenario 150, La Molina - Lima, Perú</p></Link> 
+            <Link className="footerLink" to="/s"><p className="a-link"><i class="fas fa-map-marker-alt"></i> Av. 25 de Noviembre N° A-8,<br/>Los Angeles, Moquegua - Perú</p></Link> 
+            <Link className="footerLink" to="/s"><p className="a-link"><i class="fas fa-map-marker-alt"></i> Cale Primavera 5-1 D, Sevilla, España</p></Link> 
+
              
            </div>
          </div>
        </div>
        <div className="derechos desktop">
-         <p>© Copyright Peruarq 2020 -Todos los derechos reservados</p>
-         <p className="diseño">Diseñado y desarrollado por <a className="dweb" href="https://leoramos.netlify.app/" target="_blank" rel="noreferrer"> Leonardo Ramos</a></p>
+         <p> Diseñado y desarrollado por <a className="dweb" href="https://leoramos.netlify.app/" target="_blank" rel="noreferrer"> Leonardo Ramos</a> | © Copyright Peruarq 1999 - 2021 | Todos los derechos reservados</p>
+        
        </div>
 
        </div>

@@ -6,7 +6,7 @@ import About from  '../pages/About'
 import Services from  '../pages/Services'
 import NotFound from  '../pages/NotFound'
 import Contact from  '../pages/Contact'
-/* import Layout from '../pages/Layout'; */
+import Layout from '../pages/Layout';
 import AppContext from '../context/AppContext'
 import useInitialState from '../hooks/useInitialState'
 import ServiceOne from '../pages/products/ServiceOne'
@@ -31,14 +31,15 @@ function App ()  {
                   <Home/>
             </Route>
 
-
-            <Route  exact path="/conoceme" component={About} />
+        <Layout>
+            <Route  exact path="/nosotros" component={About} />
             <Route  exact path="/servicios" component={Services}  />
             <Route  exact path="/servicios/tarot-evolutivo" component={ServiceOne}  />
             <Route  exact path="/servicios/consulta-astral" component={ServiceTwo}  />
             <Route  exact path="/servicios/psicomatrix" component={ServiceThree}  />
             <Route  exact path="/productos/floral-healing-pharmacy" component={ServiceFour}  />
             <Route  exact path="/contacto"  component={Contact} />
+        </Layout>
             <Route component={NotFound} />
         </Switch>
         
