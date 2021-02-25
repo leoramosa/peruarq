@@ -23,7 +23,7 @@ const Form = () => {
         <div className='form-content-left'>
           Escríbeme por Whatsapp:
           <div className="whastapp-btn">
-            <a className="btn-whatsapp" href="https://api.whatsapp.com/send?phone=51990319569&text=Hola%20quisiera%20m%C3%A1s%20infomacion%20de%20sus%20servicios..." rel="noopener noreferrer" target="_blank">
+            <a className="btn-whatsapp" href="https://api.whatsapp.com/send?phone=519569&text=Hola%20quisiera%20m%C3%A1s%20infomacion%20de%20sus%20servicios..." rel="noopener noreferrer" target="_blank">
                <i className="fab fa-whatsapp"></i> Enviame un mensaje
             </a>
           </div>
