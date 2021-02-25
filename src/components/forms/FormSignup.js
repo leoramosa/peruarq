@@ -37,6 +37,30 @@ const FormSignup = ({ submitForm }) => {
           {errors.email && <p>{errors.email}</p>}
         </div>
         <div className='form-inputs'>
+          <label className='form-label'>Documento DNI – C.E.</label>
+          <input
+            className='form-input'
+            type='email'
+            name='email'
+            placeholder='Escribe número de documento'
+            value={values.email}
+            onChange={handleChange}
+          />
+          {errors.email && <p>{errors.email}</p>}
+        </div>
+        <div className='form-inputs'>
+          <label className='form-label'>Telefono o whatsapp</label>
+          <input
+            className='form-input'
+            type='email'
+            name='email'
+            placeholder='Escribe número'
+            value={values.email}
+            onChange={handleChange}
+          />
+          {errors.email && <p>{errors.email}</p>}
+        </div>
+        <div className='form-inputs'>
           <label className='form-label'>Asunto</label>
           <input
             className='form-input'

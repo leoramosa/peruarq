@@ -22,31 +22,10 @@
 	height: 190px;
 	font-family: 'Quicksand', sans-serif;
 }
-.header-contact-1 {
-	background: url('../../../images/back-cont1.jpg') no-repeat center;
-	background-size: cover;
-	height: 190px;
-	font-family: 'Quicksand', sans-serif;
-}
 
 .content_service-detail {
 	width: 100%;
 	text-align: center;
-}
-
-.header-content {
-	height: 100%;
-	background: #513b6f9e;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	width: 100%;
-	color: white;
-}
-
-.content-title {
-	font-size: 68px;
 }
 
 /* content-parrafo-styles */

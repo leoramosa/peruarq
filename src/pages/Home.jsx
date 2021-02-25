@@ -218,12 +218,12 @@ Tending sanitary networks, ptar, cisterns, sanitary landfills
             </Swiper>
           </div>
           <div className="projects">
-            <p className="project_title">Servicios destacados</p>
+            <p className="project_title">SERVICIOS DESTACADOS</p>
             <div className="project_count">
               <div className="project_box">
                 <div className="project_img one">
                 <div className="project_img_content">
-                EDIFICACIONES
+                CONTRATISTAS GENERALES
                   </div>
                 </div>
                 <div className="project_info">
@@ -234,7 +234,7 @@ Tending sanitary networks, ptar, cisterns, sanitary landfills
               <div className="project_box">
                 <div className="project_img two">
                 <div className="project_img_content">
-                ELECTRIFICACIÓN
+                PROYECTOS SOCIALES
                   </div>
                 </div>
                 <div className="project_info">
@@ -245,7 +245,7 @@ Tending sanitary networks, ptar, cisterns, sanitary landfills
               <div className="project_box">
                 <div className="project_img three">
                   <div className="project_img_content">
-                  PAVIMENTACION
+                  DISEÑO Y CONSTRUCCIÓN PARA EMPRESAS
                   </div>
                 </div>
                 <div className="project_info">
@@ -256,7 +256,7 @@ Tending sanitary networks, ptar, cisterns, sanitary landfills
               <div className="project_box">
                 <div className="project_img four">
                   <div className="project_img_content">
-                  MINERIA
+                  CONSULTORIÍAS Y EJECUCIONES PARA EL ESTADO
                   </div>
                 </div>
                 <div className="project_info">

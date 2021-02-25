@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom'
         <div className="about-header">
           <div className="about_overlay">
           <div className="about_container">
-              <p className="about_title">Nuestra <strong>Historia</strong></p>
+              <p className="about_title">NUESTRA <strong>HISTORIA</strong></p>
               <p className="about_info">Nuestra experiencia en el campo de la Ingeniería </p>
               <br/>
               <div className="link_contact">
@@ -25,6 +25,7 @@ import { Link } from 'react-router-dom'
             </div>
           </div>
         </div>
+        
         <div className="about_information">
           <div className="row_about">
        <p>
@@ -34,7 +35,7 @@ construcción, edificación, obras de Ingeniería, remodelación, ampliación, m
 en peruarq, contamos con un equipo de profesionales, técnicos y obreros especializados en temas de construcción:
 
        </p>
-       <p className="second_title">Nuestro Equipo</p>
+       <p className="second_title">NUESTRO EQUIPO</p>
        <div className="persons">
       <div className="column1">
               	Gerente general

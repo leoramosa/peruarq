@@ -4,17 +4,17 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from  '../pages/Home'
 import About from  '../pages/About'
 import Services from  '../pages/Services'
+import Projects from  '../pages/Projects'
+import Empresas from  '../pages/Empresas'
+import Estatales from '../pages/Estatales';
 import NotFound from  '../pages/NotFound'
 import Contact from  '../pages/Contact'
 import Layout from '../pages/Layout';
 import AppContext from '../context/AppContext'
 import useInitialState from '../hooks/useInitialState'
-import ServiceOne from '../pages/products/ServiceOne'
-import ServiceTwo from '../pages/products/ServiceTwo'
-import ServiceThree from '../pages/products/ServiceThree'
-import ServiceFour from '../pages/products/ServiceFour'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import ScrollTop from '../components/ScrollTop';
+
 
 function App ()  {
   const initialState = useInitialState()
@@ -34,10 +34,9 @@ function App ()  {
         <Layout>
             <Route  exact path="/nosotros" component={About} />
             <Route  exact path="/servicios" component={Services}  />
-            <Route  exact path="/servicios/tarot-evolutivo" component={ServiceOne}  />
-            <Route  exact path="/servicios/consulta-astral" component={ServiceTwo}  />
-            <Route  exact path="/servicios/psicomatrix" component={ServiceThree}  />
-            <Route  exact path="/productos/floral-healing-pharmacy" component={ServiceFour}  />
+            <Route  exact path="/proyectos-sociales" component={Projects}  />
+            <Route  exact path="/empresas-privadas" component={Empresas}  />
+            <Route  exact path="/entidades-estatales" component={Estatales}  />
             <Route  exact path="/contacto"  component={Contact} />
         </Layout>
             <Route component={NotFound} />

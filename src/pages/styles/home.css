@@ -118,7 +118,7 @@
 }
 
 .ingles {
-	padding-bottom: 72px;
+	padding-bottom: 185px;
 }
 
 .service-container {
@@ -149,14 +149,14 @@
 }
 
 .project_box {
-	width: 280px;
+	width: 260px;
 	/* padding: 15px; */
 	cursor: pointer;
 }
 
 .project_img {
 	background-size: cover;
-	width: 280px;
+	/* 	width: 280px; */
 	height: 260px;
 	padding: 15px;
 	transition: 2s;
@@ -165,33 +165,34 @@
 }
 
 .project_img:hover .project_img_content {
-	height: 60px;
+	height: 75px;
 }
 
 .project_img.one {
-	background: url('../../images/cover1.jpg') center center;
+	background: url('../../images/des1.jpg') center center;
 }
 .project_img.two {
-	background: url('../../images/cover1.jpg') center center;
+	background: url('../../images/des2.jpg') center center;
 }
 .project_img.three {
-	background: url('../../images/cover1.jpg') center center;
+	background: url('../../images/des3.jpg') center center;
 }
 .project_img.four {
-	background: url('../../images/cover1.jpg') center center;
+	background: url('../../images/des4.jpg') center center;
 }
 
 .project_img_content {
-	background: #c11818a1;
+	background: #242323a1;
 	width: 100%;
 	height: 100%;
 	justify-content: center;
 	align-items: center;
 	display: flex;
 	color: white;
-	font-size: 21px;
+	font-size: 16px;
 	font-weight: 500;
 	transition: 2s;
+	text-align: center;
 }
 
 .project_info {

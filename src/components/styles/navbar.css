@@ -1,7 +1,10 @@
 .content_navbar {
-	background: #ffffff;
+	background: #0c0c0cb8;
 	padding-top: 5px;
 	padding-bottom: 8px;
+	position: absolute;
+	z-index: 5;
+	width: 100%;
 	/* border-bottom: 1px solid #b68ada96; */
 }
 
@@ -20,13 +23,13 @@
 
 .content-nav a {
 	text-decoration: none;
-	color: #2f2f2f;
+	color: white;
 	font-size: 16px;
 	font-weight: 300;
 	font-family: 'Quicksand', sans-serif;
 }
 .content-nav a:hover {
-	color: #050505;
+	color: rgb(200, 200, 200);
 }
 .content-nav ul li {
 	list-style: none;
@@ -44,7 +47,7 @@
 	margin-right: 15px;
 }
 .cart-icon span {
-	background: crimson;
+	background: rgb(255, 0, 0);
 	border-radius: 20px;
 	color: white;
 	position: absolute;
@@ -55,13 +58,12 @@
 }
 
 .navevent a {
-	font-size: 18px;
+	font-size: 15px;
 }
 
 .content-nav a.current {
 	padding-bottom: 4px;
-
-	color: rgb(175, 0, 0);
+	color: white;
 	font-weight: 700;
 }
 

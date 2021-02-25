@@ -1,0 +1,49 @@
+.empresas-container {
+	display: flex;
+}
+
+/* Style clients */
+.text_content_clients {
+	text-align: left;
+	font-size: 16px;
+	max-width: 1140px;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+.title_clients {
+	text-align: center;
+	font-size: 32px;
+	font-weight: 700;
+	padding-top: 76px;
+	padding-bottom: 26px;
+	color: #585858;
+	text-transform: uppercase;
+}
+.entidades_overlay {
+	height: 100%;
+}
+.entidades_container {
+	display: flex;
+	margin: 0 auto;
+	max-width: 1140px;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.entidades_container img {
+	filter: grayscale(100%);
+	opacity: 0.5;
+	transition: 1.5s;
+}
+.img-entidades {
+	cursor: pointer;
+	padding: 15px;
+}
+
+.img-entidades:hover img {
+	filter: grayscale(0%);
+	opacity: 1;
+}
+
+/* Style clients */
