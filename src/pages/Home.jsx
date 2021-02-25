@@ -34,10 +34,10 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
               slidesPerView={1}
               navigation
               loop={true}
-              /* autoplay= {{
+              autoplay= {{
                 delay: 2500,
                 disableOnInteraction: false,
-              }} */
+              }}
               pagination={{ clickable: true }}
               onSlideChange={() => console.log('slide change')}
               onSwiper={(swiper) => console.log(swiper)}
