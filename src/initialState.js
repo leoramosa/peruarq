@@ -24,7 +24,7 @@ export default {
     {
       'id':3,
       'name':'Electrificación',
-      'image': 'https://apiweb.netlify.app/images/peruarq/prin3.jpg',
+      'image': 'https://apiweb.netlify.app/images/peruarq/prin5.jpg',
       'breve': 'Llevamos electricidad a zonas alejadas, torres de alta tensión, redes eléctricas, instalaciones domiciliarias, estaciones eléctricas.',
       'buttontype':'solicitar',
       'details':'',
@@ -44,7 +44,7 @@ export default {
     {
       'id':5,
       'name':'Saneamiento',
-      'image': 'https://apiweb.netlify.app/images/peruarq/prin5.jpg',
+      'image': 'https://apiweb.netlify.app/images/peruarq/prin3.jpg',
       'breve': 'Realizamos el tendiendo de redes sanitarias domiciliarias, planta de tratamiento ptar, construccion de cisternas y tanques de agua, rellenos sanitarios.',
       'buttontype':'solicitar',
       'details':'',

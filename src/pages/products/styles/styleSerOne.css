@@ -1,28 +1,3 @@
-.header-service {
-	background: url('../../../images/back-ser1.jpg') no-repeat center;
-	background-size: cover;
-	height: 190px;
-	font-family: 'Quicksand', sans-serif;
-}
-.header-service-2 {
-	background: url('../../../images/back-ser2.jpg') no-repeat center;
-	background-size: cover;
-	height: 190px;
-	font-family: 'Quicksand', sans-serif;
-}
-.header-service-3 {
-	background: url('../../../images/back-ser3.jpg') no-repeat center;
-	background-size: cover;
-	height: 190px;
-	font-family: 'Quicksand', sans-serif;
-}
-.header-product-1 {
-	background: url('../../../images/back-prdo1.jpg') no-repeat center;
-	background-size: cover;
-	height: 190px;
-	font-family: 'Quicksand', sans-serif;
-}
-
 .content_service-detail {
 	width: 100%;
 	text-align: center;

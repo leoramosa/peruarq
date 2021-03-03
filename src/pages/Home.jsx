@@ -35,7 +35,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
               navigation
               loop={true}
               autoplay= {{
-                delay: 2500,
+                delay: 3000,
                 disableOnInteraction: false,
               }}
               pagination={{ clickable: true }}
@@ -51,6 +51,14 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                     <div className="content_one">
                     <p className="info_title">DISEÑO</p>
                     <p className="info_paragraph">Arquitectos especialista en diseño integral, exteriores, interiores, urbanismo, paisajismo, potenciacion de marca</p>
+                    <div className="traduction_app">
+                      <p className="tra_language">
+                      Architects specialized in integral design, exteriors, interiors, urbanism, landscaping, brand enhancement
+                      </p>
+                      <p className="tra_language">
+                      专门从事整体设计，外观，室内设计，城市化，美化环境，品牌提升的建筑师
+                      </p>
+                    </div>
                     <div className="button_plus">
                       <a href >
                         <button type="button">
@@ -79,6 +87,14 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                     <div className="content_one">
                     <p className="info_title">EDIFICACIONES</p>
                     <p className="info_paragraph">Obras de arquitectura y de ingenieria en general, habilitaciones urbanas </p>
+                    <div className="traduction_app">
+                      <p className="tra_language">
+                      Architecture and engineering works in general, urban facilities
+                      </p>
+                      <p className="tra_language">
+                      一般建築和工程工作，城市設施
+                      </p>
+                    </div>
                     <div className="button_plus">
                       <a href>
                         <button type="button">
@@ -89,8 +105,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                     </div>
                     <div className="contentTwo">
                      <div className="ingles">
-                      
-Architecture and engineering works in general, urban facilities
+                      Architecture and engineering works in general, urban facilities
                      </div>
                      <div className="chino">
                      一般建築和工程工作，城市設施
@@ -108,6 +123,14 @@ Architecture and engineering works in general, urban facilities
                     <div className="content_one">
                     <p className="info_title">PAVIMENTACION</p>
                     <p className="info_paragraph">Asfaltado de carreteras, intercambios viales, vias urbanas, estacionamientos. </p>
+                    <div className="traduction_app">
+                      <p className="tra_language">
+                      Asphalting roads, interchanges, urban roads, parking lots
+                      </p>
+                      <p className="tra_language">
+                      柏油路，立交桥，城市道路，停车场
+                      </p>
+                    </div>
                     <div className="button_plus">
                       <a href>
                         <button type="button">
@@ -118,8 +141,7 @@ Architecture and engineering works in general, urban facilities
                     </div>
                     <div className="contentTwo">
                      <div className="ingles">
-                      
-Asphalting roads, interchanges, urban roads, parking lots
+                       Asphalting roads, interchanges, urban roads, parking lots
                      </div>
                      <div className="chino">
                      柏油路，立交桥，城市道路，停车场
@@ -134,9 +156,17 @@ Asphalting roads, interchanges, urban roads, parking lots
                 <div className="img_slide">
                   
                   <div className="img_info">
-                    <div cclassName="ontent_one">
+                    <div className="content_one">
                     <p className="info_title">ELECTRIFICACION</p>
                     <p className="info_paragraph">Redes eléctricas, estaciones eléctricas, instalaciones domiciliarias  </p>
+                    <div className="traduction_app">
+                      <p className="tra_language">
+                      Power grids, power stations, home installations
+                      </p>
+                      <p className="tra_language">
+                      电网，电站，家庭设施
+                      </p>
+                    </div>
                     <div className="button_plus">
                       <a href>
                         <button type="button">
@@ -162,9 +192,17 @@ Asphalting roads, interchanges, urban roads, parking lots
                 <div className="img_slide">
                   
                   <div className="img_info">
-                    <div cclassName="ontent_one">
+                    <div className="content_one">
                     <p className="info_title">MINERIA</p>
                     <p className="info_paragraph"> Brindando diferentes servicios con los cuidados ambientales requeridos.  </p>
+                    <div className="traduction_app">
+                      <p className="tra_language">
+                      Providing different services with the required environmental care
+                      </p>
+                      <p className="tra_language">
+                      提供所需的环境保护服务
+                      </p>
+                    </div>
                     <div className="button_plus">
                       <a href>
                         <button type="button">
@@ -191,9 +229,17 @@ Asphalting roads, interchanges, urban roads, parking lots
                 <div className="img_slide">
                   
                   <div className="img_info">
-                    <div cclassName="ontent_one">
+                    <div className="content_one">
                     <p className="info_title">SANEAMIENTO</p>
                     <p className="info_paragraph">Tendiendo redes sanitarias, ptar, cisternas, rellenos sanitarios. </p>
+                    <div className="traduction_app">
+                      <p className="tra_language">
+                      Tending sanitary networks, ptar, cisterns, sanitary landfills
+                      </p>
+                      <p className="tra_language">
+                      抚养卫生网络，ptar，水箱，卫生垃圾填埋场
+                      </p>
+                    </div>
                     <div className="button_plus">
                       <a href>
                         <button type="button">
@@ -204,8 +250,7 @@ Asphalting roads, interchanges, urban roads, parking lots
                     </div>
                     <div className="contentTwo">
                      <div className="ingles">
-                      
-Tending sanitary networks, ptar, cisterns, sanitary landfills
+                      Tending sanitary networks, ptar, cisterns, sanitary landfills
                      </div>
                      <div className="chino">
                      抚养卫生网络，ptar，水箱，卫生垃圾填埋场

@@ -7,6 +7,8 @@ import './styles/services.css'
 import './styles/project.css'
 import Project1 from '../images/img-techo.png'
 import Project2 from '../images/img-bonogas.png'
+import Project3 from '../images/logo-techo-mobile.jpg'
+import Project4 from '../images/logo-gas-mobile.jpg'
 import com1 from '../images/pro1.jpg'
 import com2 from '../images/pro2.jpg'
 import com3 from '../images/pro3.jpg'
@@ -29,9 +31,9 @@ function Projects () {
           </div>
         </div>
 
-        <div className="content-container">
+        <div className="content-container-project">
           <p className="title-project">En peruarq realizamos la captacion de beneficiarios para proyectos sociales del estado como: </p>
-          <div className="services_detail">
+          <div className="project_detail">
           <div className="content-project">
             <div className="project-info">
             <ul>
@@ -45,7 +47,8 @@ function Projects () {
             <div className="link-project">
                 más información
               </div>
-              <img src={Project1} alt=""/>
+              <img className="img-desktop" src={Project1} alt=""/>
+              <img className="img-mobile" src={Project3} alt=""/>
             </div>
           </div>
           <div className="content-project">
@@ -61,7 +64,8 @@ function Projects () {
               <div className="link-project">
                 más información
               </div>
-              <img src={Project2} alt=""/>
+              <img className="img-desktop" src={Project2} alt=""/>
+              <img className="img-mobile"  src={Project4} alt=""/>
             </div>
           </div>
           </div>

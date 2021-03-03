@@ -231,3 +231,166 @@
 }
 
 /*end project style */
+@media (max-width: 1340px) {
+	.content_one {
+		padding-left: 50px;
+	}
+	.contentTwo {
+		padding-right: 35px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.content_one {
+		padding-left: 50px;
+	}
+	.contentTwo {
+		padding-right: 35px;
+	}
+	.info_title {
+		font-size: 55px;
+	}
+	.swiper_content_app {
+		height: 600px;
+	}
+
+	.project_count {
+		flex-wrap: wrap;
+		padding: 0 15px;
+	}
+	.project_box {
+		margin: 3px;
+		width: 240px;
+	}
+	.project_img {
+		height: 240px;
+	}
+	.project_info {
+		padding-bottom: 15px;
+	}
+}
+@media (min-width: 960px) {
+	.traduction_app {
+		display: none;
+	}
+}
+@media (max-width: 960px) {
+	.contentTwo {
+		display: none;
+	}
+	.content_one {
+		padding-right: 40px;
+	}
+	.traduction_app {
+		color: white;
+		font-size: 24px;
+		padding-top: 20px;
+	}
+	.traduction_app p {
+		padding-bottom: 10px;
+	}
+}
+@media (max-width: 768px) {
+	.info_title {
+		font-size: 40px;
+	}
+	.info_paragraph {
+		font-size: 18px;
+	}
+	.traduction_app {
+		color: white;
+		font-size: 16px;
+	}
+	.swiper_content_app {
+		height: 500px;
+	}
+	.button_plus button {
+		font-size: 18px;
+	}
+	.project_title {
+		font-size: 22px;
+		padding-bottom: 30px;
+	}
+	.project_button button {
+		padding: 14px 37px;
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 576px) {
+	.info_title {
+		font-size: 25px;
+	}
+
+	.info_paragraph {
+		font-size: 16px;
+		padding-top: 10px;
+	}
+	.traduction_app {
+		font-size: 14px;
+	}
+	.swiper_content_app {
+		height: 450px;
+	}
+	.content_one {
+		padding-top: 20px;
+	}
+	.button_plus button {
+		font-size: 16px;
+		padding: 6px 30px;
+	}
+	.project_box {
+		margin: 3px;
+		width: 220px;
+	}
+	.project_img {
+		height: 220px;
+	}
+	.project_img_content {
+		font-size: 14px;
+	}
+	.project_title {
+		font-size: 17px;
+		padding-top: 25px;
+		padding-bottom: 15px;
+	}
+	.project_button button {
+		padding: 10px 20px;
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 490px) {
+	.project_box {
+		width: 180px;
+	}
+	.project_img {
+		height: 180px;
+	}
+	.project_img_content {
+		font-size: 12px;
+	}
+}
+@media (max-width: 400px) {
+	.info_title {
+		font-size: 20px;
+	}
+	.info_paragraph {
+		font-size: 14px;
+	}
+	.traduction_app {
+		font-size: 12px;
+	}
+	.content_one {
+		padding-top: 35px;
+	}
+	.swiper_content_app {
+		height: 440px;
+	}
+	.project_box {
+		width: 150px;
+	}
+	.project_img {
+		height: 150px;
+	}
+}

@@ -11,14 +11,8 @@
 	margin: 0 auto;
 	padding-bottom: 15px;
 }
-.title_clients {
-	text-align: center;
-	font-size: 32px;
-	font-weight: 700;
-	padding-top: 76px;
-	padding-bottom: 26px;
-	color: #585858;
-	text-transform: uppercase;
+.service_title-header.estatales {
+	color: #ff0000;
 }
 .entidades_overlay {
 	height: 100%;
@@ -47,3 +41,29 @@
 }
 
 /* Style clients */
+@media (max-width: 1200px) {
+	.text_content_clients {
+		padding: 10px 25px;
+		padding-top: 15px;
+		line-height: 22px;
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 576px) {
+	.img-entidades img {
+		width: 160px;
+	}
+	.text_content_clients {
+		padding: 10px 25px;
+		padding-top: 15px;
+		line-height: 22px;
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 390px) {
+	.img-entidades img {
+		width: 140px;
+	}
+}

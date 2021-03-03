@@ -55,10 +55,10 @@ function Empresas () {
                 slidesPerView={1}
                 navigation
                 loop={true}
-                 autoplay= {{
+                 /* autoplay= {{
                 delay: 2500,
                 disableOnInteraction: false,
-              }}
+              }} */
                 pagination={{ clickable: true }}
                /*  scrollbar={{ draggable: true }} */
 

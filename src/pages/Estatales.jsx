@@ -27,7 +27,7 @@ function Estatales () {
       <div className="service-header">
           <div className="entidades_overlay">
           <div className="about_container">
-              <p className="service_title-header">ENTIDADES <strong>ESTATALES</strong></p>
+              <p className="service_title-header estatales">ENTIDADES <strong>ESTATALES</strong></p>
             </div>
           </div>
         </div>

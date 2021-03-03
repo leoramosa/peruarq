@@ -23,25 +23,24 @@ import { Link } from "react-router-dom";
             </div>
            </div>
          </div>
+         <div className="explorer">
+           <p className="title-info">Dirección</p>
+           <div className="link-footer">
+            <Link className="footerLink" to="/s"><p className="a-link"><i class="fas fa-map-marker-alt"></i> Av. Centenario 150, La Molina - Lima, Perú</p></Link> 
+            <Link className="footerLink" to="/s"><p className="a-link"><i class="fas fa-map-marker-alt"></i> Av. 25 de Noviembre N° A-8,<br/>Los Angeles, Moquegua - Perú</p></Link> 
+            <Link className="footerLink" to="/s"><p className="a-link"><i class="fas fa-map-marker-alt"></i> Calle Primavera 5-1 D, Sevilla, España</p></Link> 
+           </div>
+         </div>
          <div className="redes">
             <p className="title-info">Sígueme:</p>
             <div className="icon-redes">
               <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i className="fab fa-facebook-square"></i></a>
               <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
               <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i class="fab fa-whatsapp"></i></a>
-
             </div>
          </div>
-         <div className="explorer">
-           <p className="title-info">Dirección</p>
-           <div className="link-footer">
-            <Link className="footerLink" to="/s"><p className="a-link"><i class="fas fa-map-marker-alt"></i> Av. Centenario 150, La Molina - Lima, Perú</p></Link> 
-            <Link className="footerLink" to="/s"><p className="a-link"><i class="fas fa-map-marker-alt"></i> Av. 25 de Noviembre N° A-8,<br/>Los Angeles, Moquegua - Perú</p></Link> 
-            <Link className="footerLink" to="/s"><p className="a-link"><i class="fas fa-map-marker-alt"></i> Cale Primavera 5-1 D, Sevilla, España</p></Link> 
 
-             
-           </div>
-         </div>
+         
        </div>
        <div className="derechos desktop">
          <p> Diseñado y desarrollado por <a className="dweb" href="https://leoramos.netlify.app/" target="_blank" rel="noreferrer"> Leonardo Ramos</a> | © Copyright Peruarq 1999 - 2021 | Todos los derechos reservados</p>

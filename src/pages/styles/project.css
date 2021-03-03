@@ -16,6 +16,17 @@
 .projects_overlay {
 	height: 100%;
 }
+.project_detail {
+	display: flex;
+	padding-top: 25px;
+	flex-wrap: wrap;
+}
+
+.content-container-project {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+}
 
 .project-img {
 	text-align: center;
@@ -44,4 +55,64 @@
 	max-width: 1200px;
 	width: 100%;
 	padding-top: 63px;
+}
+
+@media (min-width: 1200px) {
+	.img-mobile {
+		display: none;
+	}
+}
+
+@media (max-width: 1200px) {
+	.img-desktop {
+		display: none;
+	}
+	.link-project {
+		display: none;
+	}
+
+	.img-logs-com img {
+		width: 100%;
+	}
+	.project-img img {
+		width: 100%;
+	}
+	.content-container-project {
+		padding: 0 25px;
+	}
+	.logos_company {
+		padding: 0 25px;
+		padding-top: 15px;
+	}
+	.content_services {
+		padding-bottom: 25px;
+	}
+}
+
+@media (max-width: 768px) {
+	.content-project {
+		width: 100%;
+	}
+	.project-img img {
+		width: 100%;
+		padding: 0 65px;
+	}
+	.project-info ul {
+		padding-right: 0px;
+	}
+	.title-project {
+		font-size: 16px;
+	}
+	.project-info {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 576px) {
+	.title-project {
+		font-size: 14px;
+	}
+	.project-info {
+		font-size: 14px;
+	}
 }

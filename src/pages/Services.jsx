@@ -40,7 +40,7 @@ function Services () {
                   <p>{service.breve} </p>
                 </div>
                 <div className="button-service">
-                  <Link>ver más</Link>
+                  <Link>más información</Link>
                 </div>
               </div>
               </div>
