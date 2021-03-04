@@ -125,7 +125,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                   
                   <div className="img_info">
                     <div className="content_one">
-                    <p className="info_title">PAVIMENTACION</p>
+                    <p className="info_title">PAVIMENTACIÓN</p>
                     <p className="info_paragraph">Asfaltado de carreteras, intercambios viales, vias urbanas, estacionamientos. </p>
                     <div className="traduction_app">
                       <p className="tra_language">
@@ -161,7 +161,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                   
                   <div className="img_info">
                     <div className="content_one">
-                    <p className="info_title">ELECTRIFICACION</p>
+                    <p className="info_title">ELECTRIFICACIÓN</p>
                     <p className="info_paragraph">Redes eléctricas, estaciones eléctricas, instalaciones domiciliarias  </p>
                     <div className="traduction_app">
                       <p className="tra_language">
@@ -197,7 +197,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                   
                   <div className="img_info">
                     <div className="content_one">
-                    <p className="info_title">MINERIA</p>
+                    <p className="info_title">MINERÍA</p>
                     <p className="info_paragraph"> Brindando diferentes servicios con los cuidados ambientales requeridos.  </p>
                     <div className="traduction_app">
                       <p className="tra_language">
