@@ -57,10 +57,10 @@ function Empresas () {
                 slidesPerView={1}
                 navigation
                 loop={true}
-                 /* autoplay= {{
-                delay: 2500,
+                 autoplay= {{
+                delay: 3500,
                 disableOnInteraction: false,
-              }} */
+              }}
                 pagination={{ clickable: true }}
                /*  scrollbar={{ draggable: true }} */
 
