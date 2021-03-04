@@ -9,6 +9,8 @@ import './styles/empresas.css'
 import empresa1 from '../images/empresas1.jpg'
 import empresa2 from '../images/empresas2.jpg'
 import empresa3 from '../images/empresas3.jpg'
+import empresa4 from '../images/empresas4.jpg'
+import empresa5 from '../images/empresas5.jpg'
 
 import clien1 from '../images/1x/clien1.jpg'
 import clien2 from '../images/1x/clien2.jpg'
@@ -66,16 +68,19 @@ function Empresas () {
                 onSwiper={(swiper) => console.log(swiper)} */
                 >
                 <SwiperSlide>
-              
-
                   <img src={empresa1} alt=""/>
-                
                 </SwiperSlide>
                 <SwiperSlide>
                   <img src={empresa2} alt=""/>
                 </SwiperSlide>
                 <SwiperSlide>
                   <img src={empresa3} alt=""/>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src={empresa4} alt=""/>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src={empresa5} alt=""/>
                 </SwiperSlide>
               </Swiper>
             </div>
@@ -95,31 +100,49 @@ function Empresas () {
           <p className="title_clients">Principales Clientes</p>
           <div className="clients_container">
             <div className="img-clients">
-              <img src={clien1} alt=""/>
+              <a href="https://glperu.com/" rel="noopener noreferrer" target="_blank">
+                <img src={clien1} alt=""/>
+              </a>
             </div>
             <div className="img-clients">
-              <img src={clien2} alt=""/>
+              <a href="https://peru.angloamerican.com/es-es" rel="noopener noreferrer" target="_blank">
+                <img src={clien2} alt=""/>
+              </a>
             </div>
             <div className="img-clients">
-              <img src={clien3} alt=""/>
+            <a href="https://es-la.facebook.com/pg/Fixer-SAC-203350183336454/about/?ref=page_internal" rel="noopener noreferrer" target="_blank">
+                <img src={clien3} alt=""/>
+              </a>
             </div>
             <div className="img-clients">
-              <img src={clien4} alt=""/>
+            <a href="https://inmobiliariagarciaasociados.com/" rel="noopener noreferrer" target="_blank">
+                <img src={clien4} alt=""/>
+              </a>
             </div>
             <div className="img-clients">
-              <img src={clien5} alt=""/>
+            
+                <img src={clien5} alt=""/>
+              
             </div>
             <div className="img-clients">
-              <img src={clien6} alt=""/>
+            
+                <img src={clien6} alt=""/>
+              
             </div>
             <div className="img-clients">
-              <img src={clien7} alt=""/>
+            <a href="https://www.facebook.com/pg/betonhaus.peru/about/?ref=page_internal" rel="noopener noreferrer" target="_blank">
+                <img src={clien7} alt=""/>
+              </a>
             </div>
             <div className="img-clients">
-              <img src={clien8} alt=""/>
+            <a href="https://www.rustica.com.pe/" rel="noopener noreferrer" target="_blank">
+                <img src={clien8} alt=""/>
+              </a>
             </div>
             <div className="img-clients">
-              <img src={clien9} alt=""/>
+            <a href="https://derco.com.pe/" rel="noopener noreferrer" target="_blank">
+                <img src={clien9} alt=""/>
+              </a>
             </div>
           </div>
         </div>

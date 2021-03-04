@@ -4,6 +4,12 @@ export default function validateInfo(values) {
   if (!values.username.trim()) {
     errors.username = 'nombre requerido';
   }
+  if (!values.dni.trim()) {
+    errors.dni = 'número de dni requerido';
+  }
+  if (!values.celular.trim()) {
+    errors.celular = 'número de celular requerido';
+  }
   if (!values.asunto.trim()) {
     errors.asunto = 'asunto requerido';
   }

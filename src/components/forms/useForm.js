@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 const useForm = (callback, validate) => {
 
-  const frmContact = { username:'', email:'', asunto:'', message:'' };
+  const frmContact = { username:'', email:'', dni:'', celular:'', asunto:'', message:'' };
   const [values, setValues] = useState(frmContact);
 
 
@@ -14,23 +14,11 @@ const useForm = (callback, validate) => {
     setValues({...values, [name]: value});
   };
 
- /*  function sendEmail(e) {
-    e.preventDefault();
-
-    emailjs.sendForm('gmail', 'template_3zxeg35', values, 'user_rPPWQKnZV3R0p4Gt6M7Hu')
-      .then((response) => {
-          console.log('SUCCESS!', response.status, response.text);
-          setErrors(validate(values));
-      }, (error) => {
-          console.log(error.text);
-      });
-      e.target.reset()
-  } */
 
   const handleSubmit = e =>{
     e.preventDefault();
    
-  emailjs.send('gmail','templaeg35', values, 'user_rPPWQKnZVu')
+  emailjs.send('service_02qojlj','template_fdtao0w', values, 'user_aTS1qTMZtfPMABT0DsDFw')
   .then((response) => {
          console.log('SUCCESS!', response.status, response.text);
          setErrors(validate(values));
@@ -41,20 +29,6 @@ const useForm = (callback, validate) => {
   e.target.reset()
  }
 
- /*  const handleSubmit = e => {
-    e.preventDefault();
-    setErrors(validate(values));
-    setIsSubmitting(true);
-    emailjs.sendForm('gmail', 'template_3zxeg35', values, 'user_rPPWQKnZV3R0p4Gt6M7Hu')
-      .then((response) => {
-          console.log('SUCCESS!', response.status, response.text);
-          setValues(frmContact)
-      }, (error) => {
-          console.log(error.text);
-      });
-      e.target.reset()
-
-  }; */
 
   useEffect(
     () => {

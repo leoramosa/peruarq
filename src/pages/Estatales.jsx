@@ -40,34 +40,54 @@ function Estatales () {
             ejecuciones de obras a nivel nacional e internacional.</div>
           <div className="entidades_container">
             <div className="img-entidades">
-              <img src={enti1} alt=""/>
+              <a href="http://municarmendelalegua.gob.pe/" rel="noopener noreferrer" target="_blank">
+                <img src={enti1} alt=""/>
+              </a>
             </div>
             <div className="img-entidades">
-              <img src={enti2} alt=""/>
+              <a href="http://www.municanete.gob.pe/" rel="noopener noreferrer" target="_blank">
+                <img src={enti2} alt=""/>
+              </a>
             </div>
             <div className="img-entidades">
-              <img src={enti3} alt=""/>
+              <a href="http://www.munichancay.gob.pe/" rel="noopener noreferrer" target="_blank">
+                <img src={enti3} alt=""/>
+              </a>
             </div>
             <div className="img-entidades">
-              <img src={enti4} alt=""/>
+            <a href="https://www.municipalidadchilca.gob.pe/" rel="noopener noreferrer" target="_blank">
+                <img src={enti4} alt=""/>
+              </a>
             </div>
             <div className="img-entidades">
-              <img src={enti5} alt=""/>
+            <a href="https://muniventanilla.gob.pe/" rel="noopener noreferrer" target="_blank">
+                <img src={enti5} alt=""/>
+              </a>
             </div>
             <div className="img-entidades">
-              <img src={enti6} alt=""/>
+            <a href="https://www.munisantamariadelmar.gob.pe/" rel="noopener noreferrer" target="_blank">
+                <img src={enti6} alt=""/>
+              </a>
             </div>
             <div className="img-entidades">
-              <img src={enti7} alt=""/>
+            <a href="https://www.incn.gob.pe/" rel="noopener noreferrer" target="_blank">
+                <img src={enti7} alt=""/>
+              </a>
             </div>
             <div className="img-entidades">
-              <img src={enti8} alt=""/>
+            <a href="https://www.sedapal.com.pe/" rel="noopener noreferrer" target="_blank">
+                <img src={enti8} alt=""/>
+              </a>
             </div>
             <div className="img-entidades">
-              <img src={enti9} alt=""/>
+            <a href="https://www.gob.pe/minem" rel="noopener noreferrer" target="_blank">
+                <img src={enti9} alt=""/>
+              </a>
             </div>
             <div className="img-entidades">
-              <img src={enti10} alt=""/>
+            <a href="https://www.gob.pe/vivienda" rel="noopener noreferrer" target="_blank">
+                <img src={enti10} alt=""/>
+              </a>
             </div>
           </div>
         </div>

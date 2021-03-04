@@ -57,15 +57,17 @@
 	color: white;
 }
 
+@media only screen and (min-width: 768px) {
+	.derechos.mobile {
+		display: none;
+	}
+}
 @media only screen and (max-width: 768px) {
 	.content_info {
 		display: initial;
 		text-align: center;
 	}
-}
-
-@media only screen and (min-width: 576px) {
-	.derechos.mobile {
+	.derechos.desktop {
 		display: none;
 	}
 }
@@ -83,9 +85,6 @@
 	.content_info .title-info {
 		font-weight: 600;
 		padding-bottom: 4px;
-	}
-	.derechos.desktop {
-		display: none;
 	}
 
 	.diseño {

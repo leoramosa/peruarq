@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useContext }  from 'react'
-import { Link } from 'react-router-dom'
 import AppContext from "../context/AppContext";
 // Import Swiper React components
 
@@ -27,9 +26,12 @@ function Services () {
         </div>
 
         <div className="content-container">
+          <div className="service_content_info">
+            <p>Realizamos construcción de edificios, servicios a mineras, pavimentación asfáltica, proyectos de electrificación y saneamiento</p>
+          </div>
           <div className="services_detail">
           {services.map((service, i) => (
-            <div className="box_content-service">
+            <div key={i} className="box_content-service">
               <div className="box-container">
               <figure>
                   <img src={service.image} alt=""/>
@@ -40,7 +42,7 @@ function Services () {
                   <p>{service.breve} </p>
                 </div>
                 <div className="button-service">
-                  <Link>más información</Link>
+                  <a href={`https://api.whatsapp.com/send?phone=51993861447&text=${service.mensaje}${service.name}`} rel="noopener noreferrer" target="_blank">más información</a>
                 </div>
               </div>
               </div>

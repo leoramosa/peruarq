@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import './styles/home.css'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
-
+import AppContext from "../context/AppContext";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper.scss';
@@ -19,6 +19,10 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
 
 
  const Home = () => {
+  const {state} =useContext(AppContext)
+  const { serviceTwo } = state;
+
+
   return (
     <>
 
@@ -60,11 +64,11 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                       </p>
                     </div>
                     <div className="button_plus">
-                      <a href >
+                      <Link to="/servicios" >
                         <button type="button">
                           Ver más
                         </button>
-                      </a>
+                      </Link>
                     </div>
                     </div>
                     <div className="contentTwo">
@@ -96,11 +100,11 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                       </p>
                     </div>
                     <div className="button_plus">
-                      <a href>
+                      <Link to="/servicios">
                         <button type="button">
                           Ver más
                         </button>
-                      </a>
+                      </Link>
                     </div>
                     </div>
                     <div className="contentTwo">
@@ -132,11 +136,11 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                       </p>
                     </div>
                     <div className="button_plus">
-                      <a href>
+                      <Link to="/servicios">
                         <button type="button">
                           Ver más
                         </button>
-                      </a>
+                      </Link>
                     </div>
                     </div>
                     <div className="contentTwo">
@@ -168,11 +172,11 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                       </p>
                     </div>
                     <div className="button_plus">
-                      <a href>
+                      <Link to="/servicios">
                         <button type="button">
                           Ver más
                         </button>
-                      </a>
+                      </Link>
                     </div>
                     </div>
                     <div className="contentTwo">
@@ -204,11 +208,11 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                       </p>
                     </div>
                     <div className="button_plus">
-                      <a href>
+                      <Link to="/servicios">
                         <button type="button">
                           Ver más
                         </button>
-                      </a>
+                      </Link>
                     </div>
                     </div>
                     <div className="contentTwo">
@@ -241,11 +245,11 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                       </p>
                     </div>
                     <div className="button_plus">
-                      <a href>
+                      <Link to="/servicios">
                         <button type="button">
                           Ver más
                         </button>
-                      </a>
+                      </Link>
                     </div>
                     </div>
                     <div className="contentTwo">
@@ -272,8 +276,8 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                   </div>
                 </div>
                 <div className="project_info">
-                  {/* <p className="project_info_title">ss</p> */}
-                  <Link to="/servicios/contractual" className="project_plus" >ver más</Link>
+                  
+                  <a href={`https://api.whatsapp.com/send?phone=51993861447&text=${serviceTwo[0].mensaje}${serviceTwo[0].name}`} rel="noopener noreferrer" target="_blank" className="project_plus" >más información</a>
                 </div>
               </div>
               <div className="project_box">
@@ -283,8 +287,8 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                   </div>
                 </div>
                 <div className="project_info">
-               {/*  <p className="project_info_title">ss</p> */}
-                  <Link to="/servicios/corporativo" className="project_plus" href>ver más</Link>
+               
+                  <a href={`https://api.whatsapp.com/send?phone=51993861447&text=${serviceTwo[1].mensaje}${serviceTwo[1].name}`} rel="noopener noreferrer" target="_blank" className="project_plus" >más información</a>
                 </div>
               </div>
               <div className="project_box">
@@ -294,8 +298,8 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                   </div>
                 </div>
                 <div className="project_info">
-                {/* <p className="project_info_title">ss</p> */}
-                  <Link to="/servicios/tributario"  className="project_plus" href>ver más</Link>
+                
+                  <a href={`https://api.whatsapp.com/send?phone=51993861447&text=${serviceTwo[2].mensaje}${serviceTwo[2].name}`} rel="noopener noreferrer" target="_blank"  className="project_plus" >más información</a>
                 </div>
               </div>
               <div className="project_box">
@@ -305,8 +309,8 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                   </div>
                 </div>
                 <div className="project_info">
-                {/* <p className="project_info_title">ss</p> */}
-                  <Link to="/servicios/Arbitraje" className="project_plus" href>ver más</Link>
+                
+                  <a href={`https://api.whatsapp.com/send?phone=51993861447&text=${serviceTwo[3].mensaje}${serviceTwo[3].name}`} rel="noopener noreferrer" target="_blank" className="project_plus" >más información</a>
                 </div>
               </div>
             </div>

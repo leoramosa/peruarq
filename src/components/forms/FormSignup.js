@@ -40,25 +40,25 @@ const FormSignup = ({ submitForm }) => {
           <label className='form-label'>Documento DNI – C.E.</label>
           <input
             className='form-input'
-            type='email'
-            name='email'
-            placeholder='Escribe número de documento'
-            value={values.email}
+            type='number'
+            name='dni'
+            placeholder='Escribe el número de documento'
+            value={values.dni}
             onChange={handleChange}
           />
-          {errors.email && <p>{errors.email}</p>}
+          {errors.dni && <p>{errors.dni}</p>}
         </div>
         <div className='form-inputs'>
           <label className='form-label'>Telefono o whatsapp</label>
           <input
             className='form-input'
-            type='email'
-            name='email'
-            placeholder='Escribe número'
-            value={values.email}
+            type='number'
+            name='celular'
+            placeholder='Escribe tu número'
+            value={values.celular}
             onChange={handleChange}
           />
-          {errors.email && <p>{errors.email}</p>}
+          {errors.celular && <p>{errors.celular}</p>}
         </div>
         <div className='form-inputs'>
           <label className='form-label'>Asunto</label>
@@ -66,7 +66,7 @@ const FormSignup = ({ submitForm }) => {
             className='form-input'
             type='text'
             name='asunto'
-            placeholder='escribe el asunto'
+            placeholder='Escribe el asunto'
             value={values.asunto}
             onChange={handleChange}
           />

@@ -9,7 +9,7 @@ export default {
       'buttontype':'solicitar',
       'details':'',
       'tipo':'servicios',
-      'mensaje':'Hola%2'
+      'mensaje':'Hola%20que%20tal%2C%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20del%20servicio%20de%20'
     },
     {
       'id':2,
@@ -19,7 +19,7 @@ export default {
       'buttontype':'solicitar',
       'details':'',
       'tipo':'servicios',
-      'mensaje':'Hola%2'
+      'mensaje':'Hola%20que%20tal%2C%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20del%20servicio%20de%20'
     },
     {
       'id':3,
@@ -29,7 +29,7 @@ export default {
       'buttontype':'solicitar',
       'details':'',
       'tipo':'servicios',
-      'mensaje':'Hola%2'
+      'mensaje':'Hola%20que%20tal%2C%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20del%20servicio%20de%20'
     },
     {
       'id':4,
@@ -39,7 +39,7 @@ export default {
       'buttontype':'solicitar',
       'details':'',
       'tipo':'servicios',
-      'mensaje':'Hola%2'
+      'mensaje':'Hola%20que%20tal%2C%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20del%20servicio%20de%20'
     },
     {
       'id':5,
@@ -49,8 +49,31 @@ export default {
       'buttontype':'solicitar',
       'details':'',
       'tipo':'servicios',
-      'mensaje':'Hola%2'
+      'mensaje':'Hola%20que%20tal%2C%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20del%20servicio%20de%20'
     },
+    
   ],
+  serviceTwo:[
+    {
+      'id':6,
+      'name':'Contratistas Generales',
+      'mensaje':'Hola%20que%20tal%2C%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20del%20servicio%20de%20'
+    },
+    {
+      'id':7,
+      'name':'Proyectos sociales',
+      'mensaje':'Hola%20que%20tal%2C%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20del%20servicio%20de%20'
+    },
+    {
+      'id':8,
+      'name':'Diseño y construcción para empresas',
+      'mensaje':'Hola%20que%20tal%2C%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20del%20servicio%20de%20'
+    },
+    {
+      'id':9,
+      'name':'Consultorías y ejcuciones para el estado',
+      'mensaje':'Hola%20que%20tal%2C%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20del%20servicio%20de%20'
+    },
+  ]
 
 };

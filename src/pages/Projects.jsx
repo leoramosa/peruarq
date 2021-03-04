@@ -44,11 +44,13 @@ function Projects () {
             
             </div>
             <div className="project-img">
-            <div className="link-project">
+            <a href="https://www.mivivienda.com.pe/portalweb/usuario-busca-viviendas/pagina.aspx?idpage=30" rel="noopener noreferrer" target="_blank" className="link-project">
                 más información
-              </div>
+              </a>
               <img className="img-desktop" src={Project1} alt=""/>
+              <a href="https://www.mivivienda.com.pe/portalweb/usuario-busca-viviendas/pagina.aspx?idpage=30" rel="noopener noreferrer" target="_blank" >
               <img className="img-mobile" src={Project3} alt=""/>
+              </a>
             </div>
           </div>
           <div className="content-project">
@@ -61,11 +63,13 @@ function Projects () {
            
             </div>
             <div className="project-img">
-              <div className="link-project">
+            <a href="http://www.fise.gob.pe/programa-nuevos-suministros-gnr.html" rel="noopener noreferrer" target="_blank" className="link-project">
                 más información
-              </div>
+              </a>
               <img className="img-desktop" src={Project2} alt=""/>
+              <a href="http://www.fise.gob.pe/programa-nuevos-suministros-gnr.html" rel="noopener noreferrer" target="_blank" >
               <img className="img-mobile"  src={Project4} alt=""/>
+              </a>
             </div>
           </div>
           </div>
