@@ -321,7 +321,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                 </button>
               </Link>
             </div>
-          </div>
+          </div> 
           </div>
           <Footer/>
       </div>

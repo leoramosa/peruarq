@@ -43,13 +43,13 @@ import { Link } from "react-router-dom";
          
        </div>
        <div className="derechos desktop">
-         <p> Diseñado y desarrollado por <a className="dweb" href="https://leoramos.netlify.app/" target="_blank" rel="noreferrer"> Leonardo Ramos</a> | © Copyright Peruarq 1999 - 2021 | Todos los derechos reservados</p>
+         <p> Diseñado y desarrollado por <a className="dweb" href="http://www.danyris.com/" target="_blank" rel="noreferrer">Danyris</a> | © Copyright Peruarq 1999 - 2021 | Todos los derechos reservados</p>
         
        </div>
        <div className="derechos mobile">
          <p>© Copyright PERUARQ 1999 - 2021 </p>
          <p>Todos los derechos reservados</p>
-         <p> Diseñado y desarrollado por <a className="dweb" href="https://leoramos.netlify.app/" target="_blank" rel="noreferrer"> Leonardo Ramos</a> </p>
+         <p> Diseñado y desarrollado por <a className="dweb" href="http://www.danyris.com/" target="_blank" rel="noreferrer">Danyris</a> </p>
        </div>
 
        </div>
